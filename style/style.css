@@ -91,3 +91,22 @@ button{
 #saveInput{
     margin: 0;
 }
+
+
+
+
+@media (max-width: 576px) { 
+
+    .calculation-container{
+        display: block;
+    }
+    .image{
+        height: 25rem;
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .calculation-container > div{
+        flex: 0;
+    }
+
+}
